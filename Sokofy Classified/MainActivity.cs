@@ -8,7 +8,7 @@ using Android.Views;
 
 namespace Sokofy_Classified
 {
-    [Activity(Label = "@string/app_name", Theme = "@style/AppTheme", MainLauncher = true)]
+    [Activity(Label = "@string/app_name", Theme = "@style/AppTheme", MainLauncher = false)]
     public class MainActivity : AppCompatActivity
     {
         private WebView _webView;
